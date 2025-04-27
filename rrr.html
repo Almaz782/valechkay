@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фоновое изображение на весь экран</title>
+    <style>
+        body {
+		color: black;
+            margin: 0; /* Убираем стандартные отступы */
+            height: 100vh; /* Высота равна высоте окна браузера */
+            background-image: url('LUBLUU.jpeg'); /* Замените на URL вашей картинки */
+            background-size: cover; /* Заполнение фона */
+            background-position: center; /* Центрируем изображение */
+            background-repeat: no-repeat; /* Не повторяем изображение */
+            display: flex; /* Используем Flexbox для центрирования содержимого */
+            justify-content: center; /* Центрируем по горизонтали */
+            align-items: center; /* Центрируем по вертикали */
+            color: white; /* Цвет текста */
+            font-family: Arial, sans-serif; /* Шрифт текста */
+        }
+        .message {
+            font-size: 32px; /* Размер шрифта */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Тень для текста */
+        }
+    </style>
+</head>
+<body>
+    <div class="message">Сладких снов, матурым😘❤😍!</div>
+</body>
+</html>
